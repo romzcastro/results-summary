@@ -1,0 +1,215 @@
+body {
+  background-color: hsla(228, 100%, 96%, 0.322);
+  font-family: "Hanken Grotesk", sans-serif;
+  margin-top: 10%;
+}
+h1 {
+  padding-top: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+h3 {
+  color: rgb(162, 175, 187);
+  text-align: center;
+  margin-top: 0px;
+}
+h4 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+h5 {
+  color: hsl(241, 100%, 89%);
+  margin-top: 0px;
+  line-height: 1.4;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 25px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.H1result {
+  color: hsl(241, 100%, 89%);
+}
+.H1summ {
+  color: hsl(224, 30%, 27%);
+  margin-left: 50px;
+  text-align: left;
+}
+.left-container {
+  background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 30px;
+  width: 350px;
+  height: 500px;
+  position: relative;
+}
+.right-container {
+  background-color: hsl(0, 0%, 100%);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: -30px;
+  width: 380px;
+  height: 500px;
+}
+.attribute-rcont {
+  width: 30px;
+}
+.img-summ {
+  width: 24px;
+}
+
+.rc-01 {
+  margin-top: -20px;
+  margin-left: 3px;
+  text-align: center;
+  position: relative;
+}
+.rc-02 {
+  margin-top: -20px;
+  margin-left: 3px;
+  text-align: center;
+  position: relative;
+}
+.rc-03 {
+  margin-top: -20px;
+  margin-left: 3px;
+  text-align: center;
+  position: relative;
+}
+.rc-04 {
+  margin-top: -20px;
+  margin-left: 3px;
+  text-align: center;
+  position: relative;
+}
+.rc-05 {
+  color: rgb(255, 255, 255);
+  margin-top: 23px;
+  margin-left: 110px;
+  text-align: center;
+  padding: 0px;
+  position: absolute;
+}
+.summ-bg01 {
+  background-color: rgb(255, 212, 212);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 285px;
+  height: 50px;
+  position: absolute;
+}
+.summ-bg02 {
+  background-color: rgb(252, 255, 209);
+  border-radius: 10px;
+  margin-top: 83px;
+  margin-left: 50px;
+  width: 285px;
+  height: 50px;
+  position: absolute;
+}
+.summ-bg03 {
+  background-color: rgb(223, 255, 186);
+  border-radius: 10px;
+  margin-top: 156px;
+  margin-left: 50px;
+  width: 285px;
+  height: 50px;
+  position: absolute;
+}
+.summ-bg04 {
+  background-color: rgb(245, 221, 255);
+  border-radius: 10px;
+  margin-top: 228px;
+  margin-left: 50px;
+  width: 285px;
+  height: 50px;
+  position: absolute;
+}
+.summ-bg05 {
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 50px;
+  margin-top: 310px;
+  margin-left: 50px;
+  width: 285px;
+  height: 60px;
+  position: absolute;
+}
+.summ-bg05:hover {
+  color: white;
+  background: linear-gradient(180deg, hsl(239, 73%, 65%), hsl(241, 81%, 54%));
+  border-radius: 50px;
+  margin-top: 310px;
+  margin-left: 50px;
+  text-decoration: none;
+  width: 285px;
+  height: 60px;
+  position: absolute;
+}
+.lc-01 {
+  position: relative;
+}
+.summ-bg06 {
+  background: linear-gradient(360deg, hsla(246, 72%, 46%, 0), rgb(64, 33, 202));
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 77px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.attribution {
+  margin-top: 100px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.paraRC-01 {
+  color: hsl(0, 100%, 67%);
+}
+.paraRC-02 {
+  color: hsl(39, 100%, 56%);
+}
+.paraRC-03 {
+  color: hsl(166, 100%, 37%);
+}
+.paraRC-04 {
+  color: hsl(234, 85%, 45%);
+}
+.paraRC-05 {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+}
+/* .paraRC-05:hover {
+  background: linear-gradient(180deg, hsl(239, 73%, 65%), hsl(241, 81%, 54%));
+  width: 285px;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: 310px;
+  margin-left: 50px;
+} */
+.RC-attributeTop {
+  color: hsl(224, 30%, 27%);
+}
+.RC-attributeBot {
+  color: hsl(222, 17%, 58%);
+}
